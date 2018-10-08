@@ -1,0 +1,68 @@
+body{
+    background-color: #a9d1da;
+}
+.key {
+    font-family: 'Arvo', serif;
+}
+
+h1 {
+    font-family: 'Permanent Marker', cursive;
+}
+.div-1{
+    background-color: #a9d1da;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+.result-div{
+    border-bottom: 1px solid #dfdfdf;
+    height: 20%;
+    width: 100%;
+}
+.keys-section{ 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;   
+    width: 100%;
+}
+.main-section{
+    display: flex;
+    width:100%;
+    height: 100%;
+    justify-content: center;
+    background-color: #a9d1da;
+    
+    
+    
+
+
+}
+.div-section{
+    background-color: white;
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.key-div{
+    align-items: center;
+    background-image: url("images/keyboard-key.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    
+    width: 70px;
+    height: 70px;
+}
+.space-b{
+    width: 140px;
+    height: 70px;
+    background-image: url("images/space-bar-key.png");
+    align-items: center;
+     background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
